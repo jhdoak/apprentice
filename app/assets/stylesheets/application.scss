@@ -4,44 +4,46 @@
 
 body {
 	background: #f9f9f9;
-// 	border-right: 80px solid red;
-// 	min-height: 100vh;
-// 	@media (max-width: 768px) {
-// 		border-top: 80px solid red;
-// 		border-right: none;
-// 		min-height: inherit;
-// 	}
 }
 
-#baconstache {
-	width: 40%;
-	margin: 0 auto;
-	img {
-		width: 100%;
-	}
-}
-
-// .logo {
-// 	position: absolute;
-// 	right: 5px;
-// 	top: 46vh;
-// 	width: 70px;
-// 	@media (max-width: 768px) {
-// 		top: 5px;
-// 		left: 50%;
-// 		margin-left: -35px;
-// 	}
-// }
 
 .home {
 	padding: 30px;
 	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+
 	@media (max-width: 768px) {
 		max-width: 100%;
 	}
+
 	h1 {
 		color: red;
-		font-size: 18px;
+		// font-size: 18px;
 		margin-top: 0;
+		text-align: center;
 	}
+
+	#baconstache {
+	width: 40%;
+	min-width: 115px;
+	margin: 0 auto;
+		img {
+			width: 100%;
+		}
+	}
+
+	h4 {
+		text-align: center;
+	}
+
+	#bacon-ipsum-wrap {
+		background: url("bacon.png") center center no-repeat;
+		#bacon-ipsum {
+			background: rgba(255, 255, 255, .7);
+			padding: 5px;
+			text-color: darkslategray;
+		}
+	}
+
 }
