@@ -5,7 +5,7 @@ $(document).ready(function() {
     var baconIpsumReq = $.get('https://baconipsum.com/api/?type=all-meat&paras=1&start-with-lorem=1')
     .done(function(data){
       console.log("Data:", data);
-      $("#bacon").html(data);
+      $("#bacon-ipsum").html(data);
     });
   });
 })
