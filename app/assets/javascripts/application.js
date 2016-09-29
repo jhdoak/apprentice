@@ -15,6 +15,7 @@
 //= require jquery_ujs
 //= require_tree .
 //= require turbolinks
+//= require ./baconIpsum.js
 //= require ./bacon.js
 
 $(document).ready(function() {

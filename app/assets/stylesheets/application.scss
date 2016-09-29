@@ -2,15 +2,22 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html {
+	min-height: 100%;
+	position: relative;
+}
+
 body {
 	background: #f9f9f9;
+	height: 100%;
 }
 
 
 .home {
 	padding: 30px;
 	width: 100%;
-	max-width: 700px;
+	height: 100%;
+	max-width: 800px;
 	margin: 0 auto;
 
 	@media (max-width: 768px) {
@@ -35,6 +42,8 @@ body {
 
 	h4 {
 		text-align: center;
+		font-size: 12px;
+		margin-bottom: 20px;
 	}
 
 	#bacon-ipsum-wrap {
@@ -42,8 +51,31 @@ body {
 		#bacon-ipsum {
 			background: rgba(255, 255, 255, .7);
 			padding: 5px;
-			text-color: darkslategray;
+			color: darkslategray;
 		}
+	}
+
+	#bacon-button {
+		text-align: center;
+	}
+
+	footer {
+		width: 100%;
+
+		#footer-text {
+			width: 70%;
+			display: inline-block;
+		}
+
+		#kevin {
+			width: 20%;
+			display: inline-block;
+			text-align: right;
+			img {
+				width: 100px;
+			}
+		}
+
 	}
 
 }
