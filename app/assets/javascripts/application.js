@@ -15,7 +15,12 @@
 //= require jquery_ujs
 //= require_tree .
 //= require turbolinks
+//= require ./bacon.js
 
 $(document).ready(function() {
 	// Use .ready to ensure turbolinks works properly
+
 })
+
+
+
