@@ -28,23 +28,16 @@
   }
 
   #all-faqs {
-    // display: flex;
-    // flex-wrap: wrap;
-    // justify-content: space-between;
-    .faq:nth-of-type(odd) {
-      float: left;
-    }
-    .faq:nth-of-type(even) {
-      float: right;
+    .faq, .grid-sizer {
+      width: 50%;
     }
     .faq {
       float: left;
+      width: 45%;
+      margin: 0 5% 5% 0;
       background: lightgray;
       border-radius: 5px;
       border: 2px solid black;
-      width: 45%;
-      max-width: 225px;
-      margin-bottom: 5px;
     }
   }
 

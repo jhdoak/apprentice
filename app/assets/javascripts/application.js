@@ -13,8 +13,10 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require ./masonry.min.js
 //= require ./baconIpsum.js
 //= require ./bacon.js
+//= require ./faqs.js
 
 $(document).ready(function() {
 	// Use .ready to ensure turbolinks works properly
