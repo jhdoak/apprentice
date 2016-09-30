@@ -69,6 +69,6 @@ class FaqsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def faq_params
-      params.require(:faq).permit(:question, :answer, :more_info)
+      params.require(:faq).permit(:question, :answer_1, :answer_2, :answer_3)
     end
 end

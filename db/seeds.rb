@@ -9,52 +9,62 @@
 faqs = Faq.create([
   {
     question: "",
-    answer: "",
-    more_info: ""
-  }
+    answer_1: "",
+    answer_2: "",
+    answer_3: ""
+  },
   {
     question: "",
-    answer: "",
-    more_info: ""
-  }
+    answer_1: "",
+    answer_2: "",
+    answer_3: ""
+  },
   {
     question: "",
-    answer: "",
-    more_info: ""
-  }
+    answer_1: "",
+    answer_2: "",
+    answer_3: ""
+  },
   {
     question: "",
-    answer: "",
-    more_info: ""
-  }
+    answer_1: "",
+    answer_2: "",
+    answer_3: ""
+  },
   {
     question: "",
-    answer: "",
-    more_info: ""
-  }
+    answer_1: "",
+    answer_2: "",
+    answer_3: ""
+  },
   {
     question: "",
-    answer: "",
-    more_info: ""
-  }
+    answer_1: "",
+    answer_2: "",
+    answer_3: ""
+  },
   {
     question: "",
-    answer: "",
-    more_info: ""
-  }
+    answer_1: "",
+    answer_2: "",
+    answer_3: ""
+  },
   {
     question: "",
-    answer: "",
-    more_info: ""
-  }
+    answer_1: "",
+    answer_2: "",
+    answer_3: ""
+  },
   {
     question: "",
-    answer: "",
-    more_info: ""
-  }
+    answer_1: "",
+    answer_2: "",
+    answer_3: ""
+  },
   {
     question: "",
-    answer: "",
-    more_info: ""
+    answer_1: "",
+    answer_2: "",
+    answer_3: ""
   }
 ])

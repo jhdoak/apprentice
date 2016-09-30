@@ -21,12 +21,18 @@
         <%= faq.question %>
         </div>
 
-        <div class="answer">
+        <div class="answer-1">
         <%= faq.answer %>
         </div>
 
-        <% if faq.more_info %>
-          <div class="more-info">
+        <% if faq.answer_2 %>
+          <div class="answer-2">
+            <%= faq.more_info %>
+          </div>
+        <% end %>
+
+        <% if faq.answer_3 %>
+          <div class="answer-3">
             <%= faq.more_info %>
           </div>
         <% end %>
