@@ -11,6 +11,7 @@ function initMap() {
 
   var marker = new google.maps.Marker({
     position: latLng,
+    animation: google.maps.Animation.DROP
   });
 
   marker.setMap(map);

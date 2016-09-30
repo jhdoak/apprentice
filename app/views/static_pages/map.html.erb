@@ -5,6 +5,12 @@
   <%= content_tag :div, class: "locations", data: {locations: @locations} do %>
   <% end %>
 
+  <h1>Here be markers!</h1>
+
   <div id='map'>
   </div>
+
+
+  <h4>Still hungry?<%= link_to 'Get some Bacon', root_path %></h4>
+  <h4>Or <%= link_to 'check out my FAQ', answers_path %>.</h4>
 </div>
