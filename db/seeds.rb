@@ -6,6 +6,9 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+Faq.delete_all()
+Location.delete_all()
+
 faqs = Faq.create([
   {
     question: "Hey man! What's your name?",
