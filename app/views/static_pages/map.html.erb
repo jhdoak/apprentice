@@ -1,8 +1,10 @@
 <div class="map-page">
   <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFWeUa0tYNjtPnljWgPkVjbqsZWJuH2YA&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDElajrYLklpSdie1cHvtiYuQIC_1gTOpw&callback=initMap">
   </script>
+  <%= content_tag :div, class: "locations", data: {locations: @locations} do %>
+  <% end %>
 
-
-
+  <div id='map'>
+  </div>
 </div>

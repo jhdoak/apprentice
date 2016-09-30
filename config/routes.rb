@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'locations/index'
+
   # resources :faqs
 
   # Static Pages
