@@ -36,8 +36,11 @@
 
   #bacon-ipsum-wrap {
     background: url("bacon.png") center center no-repeat;
+    border-radius: 5px;
+    border: 2px solid brown;
     #bacon-ipsum {
       background: rgba(255, 255, 255, .7);
+      border-radius: 5px;
       padding: 5px;
       color: darkslategray;
     }
@@ -55,6 +58,9 @@
     }
     button:hover {
       background-color: brown;
+    }
+    button:focus {
+      outline: 0;
     }
   }
 
