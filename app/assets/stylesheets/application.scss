@@ -1,4 +1,6 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "home";
+@import "faqs";
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -10,72 +12,4 @@ html {
 body {
 	background: #f9f9f9;
 	height: 100%;
-}
-
-
-.home {
-	padding: 30px;
-	width: 100%;
-	height: 100%;
-	max-width: 800px;
-	margin: 0 auto;
-
-	@media (max-width: 768px) {
-		max-width: 100%;
-	}
-
-	h1 {
-		color: red;
-		// font-size: 18px;
-		margin-top: 0;
-		text-align: center;
-	}
-
-	#baconstache {
-	width: 40%;
-	min-width: 115px;
-	margin: 0 auto;
-		img {
-			width: 100%;
-		}
-	}
-
-	h4 {
-		text-align: center;
-		font-size: 12px;
-		margin-bottom: 20px;
-	}
-
-	#bacon-ipsum-wrap {
-		background: url("bacon.png") center center no-repeat;
-		#bacon-ipsum {
-			background: rgba(255, 255, 255, .7);
-			padding: 5px;
-			color: darkslategray;
-		}
-	}
-
-	#bacon-button {
-		text-align: center;
-	}
-
-	footer {
-		width: 100%;
-
-		#footer-text {
-			width: 70%;
-			display: inline-block;
-		}
-
-		#kevin {
-			width: 20%;
-			display: inline-block;
-			text-align: right;
-			img {
-				width: 100px;
-			}
-		}
-
-	}
-
 }

@@ -1,31 +1,39 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Faqs</h1>
+<div class="answers">
+  <header>
+    <img src="assets/me.JPG">
+  </header>
 
-<table>
-  <thead>
-    <tr>
-      <th>Question</th>
-      <th>Answer</th>
-      <th>More-info</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <% @faqs.each do |faq| %>
+
+  <h1>Listing Faqs</h1>
+
+  <table>
+    <thead>
       <tr>
-        <td><%= faq.question %></td>
-        <td><%= faq.answer %></td>
-        <td><%= faq.more-info %></td>
-        <td><%= link_to 'Show', faq %></td>
-        <td><%= link_to 'Edit', edit_faq_path(faq) %></td>
-        <td><%= link_to 'Destroy', faq, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <th>Question</th>
+        <th>Answer</th>
+        <th>More-info</th>
+        <th colspan="3"></th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
 
-<br>
+    <tbody>
+      <% @faqs.each do |faq| %>
+        <tr>
+          <td><%= faq.question %></td>
+          <td><%= faq.answer %></td>
+          <td><%= faq.more-info %></td>
+          <td><%= link_to 'Show', faq %></td>
+          <td><%= link_to 'Edit', edit_faq_path(faq) %></td>
+          <td><%= link_to 'Destroy', faq, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
 
-<%= link_to 'Back to Bacon', root_path %>
+  <br>
+
+  <%= link_to 'Back to Bacon', root_path %>
+</div>
