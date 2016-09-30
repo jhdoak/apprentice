@@ -7,20 +7,45 @@
   padding: 30px;
   width: 100%;
   height: 100%;
-  max-width: 800px;
   margin: 0 auto;
-  background: blue;
+  background: skyblue;
 
   header {
-    div {
+    h1 {
+      margin: 10px 0 20px;
+    }
+
+    div, h1 {
+      text-align: center;
+    }
+
+    img {
       height: 150px;
-      display: inline;
-      width: 25%;
+      border-radius: 50%;
+      border: 2px solid white;
+      margin: 0 auto;
     }
   }
-  img {
-    height: 150px;
-    display: inline;
+
+  #all-faqs {
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+    .faq:nth-of-type(odd) {
+      float: left;
+    }
+    .faq:nth-of-type(even) {
+      float: right;
+    }
+    .faq {
+      float: left;
+      background: lightgray;
+      border-radius: 5px;
+      border: 2px solid black;
+      width: 45%;
+      max-width: 225px;
+      margin-bottom: 5px;
+    }
   }
 
 }

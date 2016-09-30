@@ -5,3 +5,56 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+faqs = Faq.create([
+  {
+    question: "",
+    answer: "",
+    more_info: ""
+  }
+  {
+    question: "",
+    answer: "",
+    more_info: ""
+  }
+  {
+    question: "",
+    answer: "",
+    more_info: ""
+  }
+  {
+    question: "",
+    answer: "",
+    more_info: ""
+  }
+  {
+    question: "",
+    answer: "",
+    more_info: ""
+  }
+  {
+    question: "",
+    answer: "",
+    more_info: ""
+  }
+  {
+    question: "",
+    answer: "",
+    more_info: ""
+  }
+  {
+    question: "",
+    answer: "",
+    more_info: ""
+  }
+  {
+    question: "",
+    answer: "",
+    more_info: ""
+  }
+  {
+    question: "",
+    answer: "",
+    more_info: ""
+  }
+])
