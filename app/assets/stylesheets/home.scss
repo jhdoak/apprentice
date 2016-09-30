@@ -15,7 +15,6 @@
 
   h1 {
     color: red;
-    // font-size: 18px;
     margin-top: 0;
     text-align: center;
   }
@@ -46,6 +45,17 @@
 
   #bacon-button {
     text-align: center;
+    button {
+      border: none;
+      background-color: maroon;
+      color: white;
+      padding: 10px 32px;
+      text-decoration: none;
+      margin: 5px 0 50px;
+    }
+    button:hover {
+      background-color: brown;
+    }
   }
 
   footer {
