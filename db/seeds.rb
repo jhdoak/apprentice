@@ -51,13 +51,6 @@ faqs = Faq.create([
   {
     question: "You seem like a cool guy, Justin! But you've only got a few months of programming experience.",
     answer_1: "That's true, but I do feel like I've picked it up quickly. I've gained a seriously solid foundation in my time at General Assembly, and more than that I've learned to learn. I'm confident in the skills I do have, but I'm also confident in the fact that I've still got quite a bit to learn.",
-    answer_2: "I think standardco.de's apprenticeship program would be an awesome launching point for someone like me. I'm confident I would bring some value to the standardco.de team right away, and what I lack in value now I'll more than make up for in quick learning and growth potential.",
-    answer_3: ""
-  },
-  {
-    question: "",
-    answer_1: "",
-    answer_2: "",
-    answer_3: ""
+    answer_2: "I think standardco.de's apprenticeship program would be an awesome launching point for someone like me. I'm confident I would bring some value to the standardco.de team right away, and what I lack in value now I'll more than make up for in quick learning and growth potential."
   }
 ])
