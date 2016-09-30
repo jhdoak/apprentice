@@ -17,6 +17,7 @@
 //= require ./baconIpsum.js
 //= require ./bacon.js
 //= require ./faqs.js
+//= require ./map.js
 
 $(document).ready(function() {
 	// Use .ready to ensure turbolinks works properly
