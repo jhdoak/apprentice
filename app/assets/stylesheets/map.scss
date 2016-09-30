@@ -3,10 +3,27 @@
     text-align: center;
     color: red;
   }
+  footer {
+    text-align: center;
+  }
 }
 
 #map {
   height: 500px;
   width: 500px;
   margin: 0 auto;
+  border-radius: 8px;
+  border: 3px solid brown;
+  @media (max-width: 525px) {
+    width: 80%;
+  }
+  @media (max-height: 600px) {
+    height: 300px;
+  }
+  @media (max-height: 450px) {
+    height: 150px;
+  }
+  div {
+    border-radius: 5px;
+  }
 }
