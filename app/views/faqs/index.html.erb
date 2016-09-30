@@ -4,10 +4,10 @@
     <h1>Hi, I'm Justin Doak</h1>
     <div id="contact">
       <h6>Get in touch:</h6>
-      <%= link_to "Website", "https://www.jhdoak.com", :target => "_blank" %>
-      <%= link_to "Email", "mailto:justin@jhdoak.com" %>
-      <%= link_to "GitHub", "https://github.com/jhdoak", :target => "_blank" %>
-      <%= link_to "LinkedIn", "https://www.linkedin.com/in/jhdoak", :target => "_blank" %>
+      <%= link_to "Website", "https://www.jhdoak.com", :target => "_blank" %><span>  |  </span>
+      <%= link_to "Email", "mailto:justin@jhdoak.com" %><span>  |  </span>
+      <%= link_to "GitHub", "https://github.com/jhdoak", :target => "_blank" %><span>  |  </span>
+      <%= link_to "LinkedIn", "https://www.linkedin.com/in/jhdoak", :target => "_blank" %><span>  |  </span>
       <%= link_to "Twitter", "https://twitter.com/justin_doak", :target => "_blank" %>
     </div>
   </header>
@@ -22,18 +22,18 @@
         </div>
 
         <div class="answer-1">
-        <%= faq.answer %>
+        &nbsp;&nbsp;&nbsp;<%= faq.answer_1 %>
         </div>
 
         <% if faq.answer_2 %>
           <div class="answer-2">
-            <%= faq.more_info %>
+            &nbsp;&nbsp;&nbsp;<%= faq.answer_2 %>
           </div>
         <% end %>
 
         <% if faq.answer_3 %>
           <div class="answer-3">
-            <%= faq.more_info %>
+            &nbsp;&nbsp;&nbsp;<%= faq.answer_3 %>
           </div>
         <% end %>
       </div>
