@@ -14,7 +14,7 @@ faqs = Faq.create([
   {
     question: "How do we get in touch with you?",
     answer_1: "I'd love to hear from you! My email address is justin@jhdoak.com, and my phone number is 352.538.5659.",
-    answer_2: "I can also be found on GitHub and LinkedIn as 'jhdoak.",
+    answer_2: "I can also be found on GitHub and LinkedIn as 'jhdoak.'",
     answer_3: "My Twitter handle is @justin_doak."
   },
   {
