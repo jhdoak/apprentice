@@ -36,6 +36,10 @@
             &nbsp;&nbsp;&nbsp;<%= faq.answer_3 %>
           </div>
         <% end %>
+
+        <% if current_user && current_user.admin? %>
+          <%= link_to "Edit Answer",  %>
+        <% end %>
       </div>
     <% end %>
   </div>
