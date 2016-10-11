@@ -7,9 +7,10 @@ Rails.application.routes.draw do
 
   get 'answers', to: 'faqs#index', as: 'answers'
 
+  devise_for :users
+  get 'user_root', to: 'faqs#index', as: :user_root
+
   # Send all unmatched paths to '/answers'
   get '*path' => redirect('/answers')
-
-  # devise_for :users
 
 end
