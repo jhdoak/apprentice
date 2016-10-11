@@ -6,7 +6,6 @@ Rails.application.routes.draw do
 
   # Static Pages
   root to: 'static_pages#home'
-  get 'home', to: 'static_pages#home', as: 'home'
   get 'map', to: 'static_pages#map', as: 'map'
 
   get 'answers', to: 'faqs#index', as: 'answers'
