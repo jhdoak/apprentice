@@ -1,0 +1,38 @@
+.form {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  form {
+    width: 100%;
+    .field {
+      margin-bottom: 10px;
+      input {
+        width: 100%;
+      }
+      input[type="checkbox"] {
+        width: initial;
+      }
+      textarea {
+        width: 100%;
+      }
+    }
+    .actions {
+      input {
+        width: initial;
+      }
+    }
+  }
+}
+
+.form.user {
+  form {
+    .field {
+      input {
+        width: 180px;
+      }
+      input[type="checkbox"] {
+        width: initial;
+      }
+    }
+  }
+}
