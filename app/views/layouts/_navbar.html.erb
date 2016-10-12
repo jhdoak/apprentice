@@ -1,5 +1,14 @@
-<nav>
-  <ul>
+<nav class="clearfix">
+  <ul class="notices">
+    <% if notice %>
+      <li class="notice"><%= notice %></li>
+    <% end %>
+    <% if alert %>
+      <li class="alert"><%= alert %></li>
+    <% end %>
+  </ul>
+
+  <ul class="nav-links">
     <% if signed_in? %>
       <li><%= link_to current_user.email, edit_user_registration_path %></li>
       <li><%= link_to 'Sign Out', destroy_user_session_path, method: 'delete' %></li>
