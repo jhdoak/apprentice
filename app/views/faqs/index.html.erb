@@ -12,11 +12,13 @@
     </div>
   </div>
 
-  <% if signed_in? %>
     <div class="new-question">
-      <%= link_to "Ask a new question!", new_faq_path %>
+      <% if signed_in? %>
+        <%= link_to "Ask a new question!", new_faq_path %>
+      <% else %>
+        <%= link_to 'Sign In to ask a new question!', new_user_session_path %>
+      <% end %>
     </div>
-  <% end %>
 
   <div id="all-faqs" class="clearfix">
     <div class='grid-sizer'></div>
@@ -27,9 +29,11 @@
         <%= faq.question %>
         </div>
 
-        <div class="answer-1">
-        &nbsp;&nbsp;&nbsp;<%= faq.answer_1 %>
-        </div>
+        <% if faq.answer_1 %>
+          <div class="answer-1">
+            &nbsp;&nbsp;&nbsp;<%= faq.answer_1 %>
+          </div>
+        <% end %>
 
         <% if faq.answer_2 %>
           <div class="answer-2">
@@ -43,8 +47,12 @@
           </div>
         <% end %>
 
-        <% if current_user && current_user.admin? %>
-          <%= link_to "Edit Answer", edit_faq_path(faq) %>
+        <% if signed_in? %>
+          <% if current_user.admin? %>
+            <%= link_to "Answer Question", edit_faq_path(faq) %>
+          <% elsif current_user.id == faq.user_id %>
+            <%= link_to "Edit Question", edit_faq_path(faq) %>
+          <% end %>
         <% end %>
       </div>
     <% end %>

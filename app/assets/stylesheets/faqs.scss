@@ -69,9 +69,13 @@
         text-align: center;
         border-bottom: 1px solid black;
         padding: 2px;
+        margin-bottom: 3px;
       }
       [class*="answer"] {
         padding: 4px 2px;
+      }
+      .answer-1 {
+        padding-top: 1px;
       }
       a {
         padding: 0 5px 2px;

@@ -26,6 +26,7 @@ class FaqsController < ApplicationController
   # POST /faqs.json
   def create
     @faq = Faq.new(faq_params)
+    @faq.user_id = current_user.id
 
     respond_to do |format|
       if @faq.save
@@ -70,6 +71,6 @@ class FaqsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def faq_params
-      params.require(:faq).permit(:question, :answer_1, :answer_2, :answer_3)
+      params.require(:faq).permit(:question, :answer_1, :answer_2, :answer_3, :user_id)
     end
 end
