@@ -52,18 +52,18 @@
     }
     .faq {
       float: left;
-      width: 45%;
-      margin: 0 5% 3% 0;
+      width: 46%;
+      margin: 0 2% 3%;
       background: lightgray;
       border-radius: 5px;
       border: 2px solid black;
       @media (max-width: 400px) {
         width: 100%;
-        margin: 0 0 3% 0;
+        margin: 0 0 3%;
       }
       @media (min-width: 850px) {
         width: 30%;
-        margin: 0 3% 3% 0;
+        margin: 0 1.5% 3%;
       }
       .question {
         text-align: center;
