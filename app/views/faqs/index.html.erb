@@ -54,6 +54,7 @@
               <%= link_to "Delete Question", faq, method: :delete %>
             <% elsif current_user.id == faq.user_id %>
               <%= link_to "Edit Question", edit_faq_path(faq) %>
+              <%= link_to "Delete Question", faq, method: :delete %>
             <% end %>
           </div>
         <% end %>
