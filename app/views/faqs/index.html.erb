@@ -38,7 +38,7 @@
         <% end %>
 
         <% if current_user && current_user.admin? %>
-          <%= link_to "Edit Answer",  %>
+          <%= link_to "Edit Answer", edit_faq_path(faq) %>
         <% end %>
       </div>
     <% end %>
