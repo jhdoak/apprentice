@@ -11,6 +11,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+    <%= render 'layouts/navbar' %>
+  </header>
 
   <% if notice %>
     <p class="notice"><%= notice %></p>
