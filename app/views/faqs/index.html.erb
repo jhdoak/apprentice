@@ -12,6 +12,12 @@
     </div>
   </div>
 
+  <% if signed_in? %>
+    <div class="new-question">
+      <%= link_to "Ask a new question!", new_faq_path %>
+    </div>
+  <% end %>
+
   <div id="all-faqs" class="clearfix">
     <div class='grid-sizer'></div>
     <% @faqs.each do |faq| %>

@@ -20,7 +20,7 @@
   }
 
   .faqs-header {
-    margin-bottom: 20px;
+    padding-bottom: 10px;
     h1 {
       margin: 10px 0 20px;
     }
@@ -35,7 +35,12 @@
     }
   }
 
+  .new-question {
+    text-align: center;
+  }
+
   #all-faqs {
+    padding-top: 10px;
     .grid-sizer {
       width: 50%;
       @media (max-width: 400px) {
@@ -65,9 +70,16 @@
         border-bottom: 1px solid black;
         padding: 2px;
       }
-
       [class*="answer"] {
         padding: 4px 2px;
+      }
+      a {
+        padding: 0 5px 2px;
+        float: right;
+        color: darkslategray;
+      }
+      a:hover {
+        color: black;
       }
     }
   }

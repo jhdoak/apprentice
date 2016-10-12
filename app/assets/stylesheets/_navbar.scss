@@ -5,7 +5,6 @@ header {
     ul {
       margin: 0;
       list-style: none;
-      width: 50%;
       display: inline-block;
     }
 
@@ -13,12 +12,14 @@ header {
       padding: 5px 0 0 5px;
       text-align: left;
       float: left;
+      width: 70%;
     }
 
     .nav-links {
       padding: 5px 5px 0 0;
       text-align: right;
       float: right;
+      width: 30%;
       li {
         a {
           color: darkslategray;
