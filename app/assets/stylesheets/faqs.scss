@@ -77,10 +77,13 @@
       .answer-1 {
         padding-top: 1px;
       }
-      a {
+      .faq-anchors {
+        text-align: right;
         padding: 0 5px 2px;
-        float: right;
-        color: darkslategray;
+        a {
+          display: block;
+          color: darkslategray;
+        }
       }
       a:hover {
         color: black;

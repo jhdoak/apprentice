@@ -11,6 +11,7 @@ class FaqsController < ApplicationController
   # GET /faqs/1
   # GET /faqs/1.json
   def show
+    redirect_to faqs_url
   end
 
   # GET /faqs/new
