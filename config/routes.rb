@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   # Static Pages
   root to: 'static_pages#home'
-  get 'map', to: 'static_pages#map', as: 'map'
+  get 'map', to: 'locations#index', as: 'map'
 
   devise_for :users
   get 'user_root', to: 'faqs#index', as: :user_root
